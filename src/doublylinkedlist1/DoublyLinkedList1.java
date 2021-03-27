@@ -8,17 +8,7 @@ package doublylinkedlist1;
 import java.util.Objects;
 import javafx.scene.Node;
 
-/**
- *
- * @author Taif
- */
-public class DoublyLinkedList1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
         public static class DoublyLinkedList1<E> {
     private Node<E> header;
     private Node<E> trailer;
@@ -126,4 +116,4 @@ public class DoublyLinkedList1 {
     }
     }
     
-}
+
